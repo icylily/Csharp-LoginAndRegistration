@@ -25,9 +25,7 @@ namespace RegisterAndLogin
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string mySqlConnection = "server=localhost;userid=root;password=misfits2000X;port=3306;database=userdb;SslMode=None";
-            services.AddDbContext<UserContext>(options => options.UseMySql(mySqlConnection));
-            // services.AddDbContext<MyContext>(options => options.UseMySql(Configuration["DBInfo:MySqlConnection"]));
+            services.AddDbContext<MyContext>(options => options.UseMySql(Configuration["DBInfo:MySqlConnection"]));
             services.AddSession();            
             services.AddMvc();
         }
