@@ -55,7 +55,7 @@ using RegisterAndLogin.Models;
             WriteLiteral("<h1 class=\"text-center\">Welcome. Let\'s Register or Login!</h1>\r\n\r\n<div class=\"row\">\r\n    <div class=\"col-md-5 order-md-1\">\r\n        ");
             EndContext();
             BeginContext(132, 33, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fd672604ec4a4539986a45f063bf894e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "94ebe1cc324041368b3b3d2e81b61f6e", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -74,7 +74,7 @@ using RegisterAndLogin.Models;
             WriteLiteral("\r\n    </div>\r\n    <div class=\"col-md-5 order-md-1\">\r\n        ");
             EndContext();
             BeginContext(226, 30, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "17d4a673510f4a70ab8a4fc5a57e04a5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ef21a974ac084add8abd9bac7a002d20", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

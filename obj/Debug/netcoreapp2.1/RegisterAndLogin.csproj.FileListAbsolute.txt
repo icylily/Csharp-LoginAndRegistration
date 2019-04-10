@@ -26,4 +26,4 @@ C:\Users\Lili\Desktop\Coding Dojo\CSharp\MVC\RegisterAndLogin\obj\Debug\netcorea
 C:\Users\Lili\Desktop\Coding Dojo\CSharp\MVC\RegisterAndLogin\obj\Debug\netcoreapp2.1\RegisterAndLogin.csproj.CopyComplete
 C:\Users\Lili\Desktop\Coding Dojo\CSharp\MVC\RegisterAndLogin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\LoginPartial.g.cshtml.cs
 C:\Users\Lili\Desktop\Coding Dojo\CSharp\MVC\RegisterAndLogin\obj\Debug\netcoreapp2.1\Razor\Views\Shared\RegisterPartial.g.cshtml.cs
-C:\Users\Lili\Desktop\Coding Dojo\CSharp\MVC\RegisterAndLogin\obj\Debug\netcoreapp2.1\Razor\Views\Home\Success.g.cshtml.cs
+C:\Users\Lili\Desktop\Coding Dojo\CSharp\MVC\RegisterAndLogin\obj\Debug\netcoreapp2.1\Razor\Views\Home\LogedIn.g.cshtml.cs

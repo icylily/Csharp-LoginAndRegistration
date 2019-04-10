@@ -50,7 +50,8 @@ namespace RegisterAndLogin.Controllers
                     dbContext.Users.Add(newUser);
                     dbContext.SaveChanges();
                     Loginuser.SetLogin(HttpContext, newUser.UserId);
-                    return View("Success");
+                    return Redirect("LogedIn");
+                    // return View("Success");
                 }
             }
         }
@@ -81,7 +82,7 @@ namespace RegisterAndLogin.Controllers
                 else
                 {
                     Loginuser.SetLogin(HttpContext , needLogin.UserId);
-                    return View("Success");
+                    return Redirect("LogedIn");
                 }
             }
         }
@@ -92,6 +93,21 @@ namespace RegisterAndLogin.Controllers
         {
             HttpContext.Session.Clear();
             return View("Index");
+        }
+
+        [Route("LogedIn")]
+        [HttpGet]
+        public IActionResult LogedIn()
+        {
+            int logedUserID = Loginuser.GetUserID(HttpContext);
+            if(logedUserID!=0)
+            {
+                ViewBag.message = "Welcome";
+            }
+            else{
+                ViewBag.message = "You did not login yet!!!! Can not access this page!";
+            }
+            return View("LogedIn");
         }
 
     }
